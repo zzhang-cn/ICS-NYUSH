@@ -10,7 +10,7 @@ import dice_helper
 class Dice:
     def __init__(self, sides=2):
         self.n_sides = sides
-        self.bounds = [x/sides for x in range(0, sides)]
+        self.bounds = [float(x)/sides for x in range(0, sides)]
         self.bounds.append(1.0)
         self.point = None
         self.lands = 0
