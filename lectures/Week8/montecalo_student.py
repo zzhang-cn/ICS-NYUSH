@@ -20,7 +20,7 @@ def comp_dist(a, b):
 
 def estimate_pi(num_points):
 # replace the following line with your code
-# use math.uniform(-1, 1) twice to get cordinate of a random dot
+# use random.uniform(-1, 1) twice to get cordinate of a random dot
 # record how many times dots are within unit circle
 # should return:
 # - an estimate of pi
@@ -54,5 +54,5 @@ plt.title('estimate of pi')
 plt.hist(results)
 
 plt.show()
-        
-    
+
+
